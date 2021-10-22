@@ -1,0 +1,204 @@
+body{
+    background-color:white;
+    margin:0px;
+}
+
+h2{
+    color: #ffffff;
+
+}
+p{
+    color:black;
+}
+h2{
+    text-shadow: 50%;
+    font-size: 40px;
+}
+
+.greentext{
+    color:rgb(47, 201, 228);
+}
+
+.whitetext{
+    color: rgb(255, 255, 255);
+}
+
+
+.centretext{
+    text-align: center;
+
+}
+.navbarleft{
+    background-color: darkcyan;
+    height: 90px;
+    text-align: left;
+}
+#navbarcentre{
+    background-color: darkcyan;
+    /* height: 100%; 
+    width: 100%; */
+}
+
+.audi{
+    background-image: url(Audi.logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.benz{
+
+    background-image: url(benz.logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bmw{
+
+    background-image: url(Bmw.logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.chevrolet{
+    background-image: url(Chevrolet.logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.toyota{
+    background-image: url(Toyota.logo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbarright{
+    background-color: darkcyan;
+    height: 90px;
+    text-align:end;
+}
+/* .imgleft{
+    margin-left: auto;
+    margin-right: 30px;
+    display: block;
+    width: 20%;
+    flex-direction: row;
+
+    
+} */
+
+/* .imgright{
+    margin-right:auto ;
+    margin-left: 30px;
+    width: 20%;
+    display: block;
+    
+} */
+.allcontent{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    width: 90%;
+    padding: 50px;
+    border:solid;
+    border-color:#ffffff;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgcontent{
+    background-color: #ffffff;
+    font-size: 36px;
+    width: 90%;
+    padding: 50px;
+    border:solid;
+    border-color:#ffffff;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.welcometext{
+    text-align:center ;
+    padding-bottom: 280px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.box {
+    color: rgb(250, 248, 248);
+    font-size: 120px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+       /*
+    width: 400px;
+    */
+}
+.box1 { background-image: url(Audi.logo.jpg);
+       display: flex;
+       justify-content: center;}
+.box2 { background: #ff6348;
+    display: flex;
+    justify-content: center; }
+.box3 { background: #ff7f50;
+    display: flex;
+    justify-content: center; }
+.box4 { background: #ff4757;
+    display: flex;
+    justify-content: center; }
+.box5 { background: #f1c40f;
+    display: flex; 
+    justify-content: center;}
+    
+*{
+     box-sizing: border-box;}
+
+
+    
